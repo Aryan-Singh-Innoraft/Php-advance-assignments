@@ -63,6 +63,7 @@ body {
   color: red;
   margin-top: 8px;
   opacity: 0;
+  font-size: 15px;
   position: absolute;
   top: 0;
 }
