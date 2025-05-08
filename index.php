@@ -15,12 +15,9 @@
 <body >
   <div class="container">
     <div id="our-key-services">
-
     </div>
   </div>
-
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="./js/index.js"></script>
-
 </html>
