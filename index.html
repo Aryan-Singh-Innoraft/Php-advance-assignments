@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./css/design.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Email Signup</title>
+</head>
+<body>
+  <main>
+    <section class="form-page">
+      <div class="container">
+        <div class="form-wrapper">
+          <form action="" method="POST" class="email-form" id="email-call"  onsubmit="validateForm(event)">
+            <h2>Enter your email</h2>
+            <input type="text" name="email" placeholder="Enter your email" id="email"/>
+            <div class="message">
+              <p id="emailError"></p>
+              <img src="./assets/icons/Animation - 1744806701019.gif" alt="Loading..." class="loading" width="40" height="40" id="load">
+            </div>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
